@@ -1,0 +1,109 @@
+/* Apply a stylish background with a linear gradient overlaying a background image */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://source.unsplash.com/1600x900/?health,heartbeat");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card-style container */
+.container {
+    width: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #ff7675;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+}
+
+/* Placeholder Text Styling */
+input::placeholder {
+    color: #ddd;
+}
+
+/* Submit Button */
+button {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #e84118;
+    transform: scale(1.05);
+}
+
+/* Prediction Result Styling */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.positive {
+    background: rgba(255, 50, 50, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.negative {
+    background: rgba(50, 255, 120, 0.7);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
