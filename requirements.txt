@@ -3,5 +3,10 @@ numpy
 pandas
 scikit-learn
 matplotlib
+<<<<<<< HEAD
 seaborn
 gunicorn
+=======
+
+
+>>>>>>> 3ce0135 (changed a lot)
